@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>APK Task-1</title>
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">    </head>
+    <body>
+        <nav>
+            <a href="#home">Home</a> |
+            <a href="#contact">Contacts</a> |
+            <a href="#about">About</a> |
+            <a href="#projects">Projects</a>
+        </nav>
+        <br><br>
+        <h1>Student Registration Form</h1><br>
+        <form>
+            <label for="fname">First name:</label><br>
+            <input type="text" id="fname" name="fname"><br>
+            <lable for="lname">Last name:</lable><br>
+            <input type="text" id="lname" name="lname"><br><br>
+            <lable for="date_of_birth">DOB:</lable><br>
+            <input type="date" id="date_of_birth" name="date_of_birth"><br><br>
+            <label for="fathers_name">Father's Name:</label><br>
+            <input type="text" id="fathers_name" name="fathers_name"><br>
+            <p>Documents:</p>
+            <input type="radio" id="adhaar" value="adhaar">
+            <label for="adhaar">Adhaar</label><br>
+            <input type="radio" id="driving_license" value="driving_license">
+            <label for="driving_license">Driving License</label><br>
+            <input type="radio" id="other" value="other">
+            <label for="other">Other</label><br>
+            <p>Gender: 
+                <select>
+                    <option>Male</option>
+                    <option>Female</option>
+                    <option>Other</option>
+                </select>
+            </p>
+            <p>Description: </p>
+            <textarea id="description" rows="7" cols="50"></textarea><br>
+            <input type="checkbox" id="confirm" name="confirm" value="yes">
+            <label for="confirm">Confirm</label><br>
+            <button type="submit" id="submit">Submit</button><br><br>
+            <footer>
+                <p><span>Made By Ravi Utsav</span><i class="fa fa-address-book-o"  aria-hidden="true"></i>
+                    <i class="fa fa-envelope" aria-hidden="true"></i><i class="fa fa-facebook" aria-hidden="true"></i>
+                    <i class="fa fa-instagram" aria-hidden="true"></i></p>
+            </footer>
+        </form>
+    </body>
+</html>
